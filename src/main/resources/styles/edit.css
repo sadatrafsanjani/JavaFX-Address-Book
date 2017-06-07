@@ -1,0 +1,59 @@
+
+.master-vbox{
+    -fx-border-color: #000000;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-background-color: #eeeeee;
+}
+
+
+.textField{
+    -fx-text-fill: #090a0c;
+    -fx-font-size: 14px;
+    -fx-background-color: #eeeeee;
+    -fx-border-color: #20262b;
+    -fx-font-family: "Consolas";
+}
+
+.text-area{
+    -fx-text-fill: #090a0c;
+    -fx-font-family: "Consolas";
+    -fx-display-caret:true;
+    -fx-font-size: 15px;
+    -fx-background-color: #eeeeee;
+    -fx-border-color: #20262b;
+}
+
+.text-area .content {
+    -fx-background-color: #eeeeee;
+}
+
+.text-area:focused .content {
+    -fx-background-color: #eeeeee;
+}
+
+.exit-button {
+    -fx-background-image: url("../images/exit.png");
+    -fx-background-color: #E04F5F;
+}
+
+.exit-button:hover {
+    -fx-background-color: #ff3333;
+}
+
+.minimize-button {
+    -fx-background-image: url("../images/minimize.png");
+    -fx-background-color: #ffff33;
+
+}
+
+.minimize-button:hover {
+    -fx-background-image: url("../images/minimize-hover.png");
+    -fx-background-color: #99ccff;
+}
+
+.exit-button, .minimize-button {
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 75%;
+    -fx-background-position: center center;
+}

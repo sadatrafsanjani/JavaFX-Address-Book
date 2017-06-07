@@ -1,0 +1,91 @@
+
+.master-vbox{
+    -fx-background-color: #eeeeee;
+    -fx-border-color: #000000;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+}
+
+.top-panel{
+    -fx-background-color: #E04F5F;
+}
+
+.exit-button {
+    -fx-background-image: url("../images/exit.png");
+    -fx-background-color: #E04F5F;
+}
+
+.exit-button:hover {
+    -fx-background-color: #ff3333;
+}
+
+.maximize-button {
+    -fx-background-image: url("../images/maximize.png");
+    -fx-background-color: #34495e;
+}
+
+.minimize-button {
+    -fx-background-image: url("../images/minimize.png");
+    -fx-background-color: #e67e22;
+    
+}
+
+.minimize-button:hover {
+    -fx-background-image: url("../images/minimize-hover.png");
+}
+
+.maximize-button:hover {
+    -fx-background-image: url("../images/maximize-hover.png");
+}
+
+
+.exit-button, .maximize-button, .minimize-button {
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 75%;
+    -fx-background-position: center center;
+}
+
+.split-pane {
+    -fx-background-color: #FFFFFF;
+}
+
+.left-vbox{
+    -fx-background-color: #25B6D2;
+}
+
+.right-vbox{
+    -fx-background-color: #FFFFFF;
+}
+
+.search-field {
+    -fx-background-image: url('../images/search.png');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right center;
+    -fx-font-size: 20px;
+    -fx-background-size: 12%;
+}
+
+.table{
+    -fx-font-family: "Futura";
+    -fx-font-size: 14px;
+    -fx-background-color: #dddddd;
+    -fx-border-color: #000000;
+}
+
+.table .column-header{
+    -fx-background-color: #ff9900;
+}
+
+.table .column-header .label{
+    -fx-font-size: 16px;
+    -fx-text-fill: #ffffff;
+}
+
+.table .filler{
+    -fx-background-color: #ff9900;
+}
+
+.operation-buttons {
+    
+    -fx-font-size: 16px;
+}

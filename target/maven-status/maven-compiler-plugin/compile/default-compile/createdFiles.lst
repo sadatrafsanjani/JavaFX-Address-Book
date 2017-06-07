@@ -1,0 +1,15 @@
+com\rafsanjani\address\PersonList.class
+com\rafsanjani\address\entity\Phone.class
+com\rafsanjani\address\model\PhoneModel.class
+com\rafsanjani\address\model\GeneralModel.class
+com\rafsanjani\address\model\WebModel.class
+com\rafsanjani\address\dao\WebDao.class
+com\rafsanjani\address\entity\General.class
+com\rafsanjani\address\entity\Web.class
+com\rafsanjani\address\controller\AddController.class
+com\rafsanjani\address\dao\GeneralDao.class
+com\rafsanjani\address\controller\EditController.class
+com\rafsanjani\address\HibernateUtil.class
+com\rafsanjani\address\dao\PhoneDao.class
+com\rafsanjani\address\controller\MainController.class
+com\rafsanjani\address\MainApp.class

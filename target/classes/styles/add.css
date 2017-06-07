@@ -1,0 +1,106 @@
+
+.master-vbox{
+    -fx-border-color: #3366ff;
+    -fx-border-width: 3;
+    -fx-background-color: #eeeeee;
+}
+
+.pane {
+    -fx-border-color: #e74c3c;
+}
+
+.label {
+    -fx-text-fill: #20262b;
+    -fx-font-size: 18px;
+}
+
+.textField{
+    -fx-text-fill: #090a0c;
+    -fx-font-size: 14px;
+    -fx-background-color: #eeeeee;
+    -fx-border-color: #20262b;
+    -fx-font-family: "Consolas";
+}
+
+.text-area{
+    -fx-text-fill: #090a0c;
+    -fx-font-family: "Consolas";
+    -fx-display-caret:true;
+    -fx-font-size: 15px;
+    -fx-background-color: #eeeeee;
+    -fx-border-color: #20262b;
+}
+
+.text-area .content {
+    -fx-background-color: #eeeeee;
+}
+
+.text-area:focused .content {
+    -fx-background-color: #eeeeee;
+}
+
+.operation-button{
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 14px;
+}
+
+.operation-button:hover{
+    -fx-background-color: 
+        #ff9900,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-text-fill: #ff9900;
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: linear-gradient(#ff9900, #ff9900);
+}
+
+.operation-button:pressed{
+    -fx-background-color: 
+        #e74c3c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: #ff9900;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: linear-gradient(#ff9900, #d0d0d0);
+}
+
+.close-button{
+    -fx-background-image: url("../images/close.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center center;
+}
+
+.close-button:hover{
+
+    -fx-background-image: url("../images/close-hover.png");
+}
+
+.maximize-button{
+
+    -fx-background-image: url("../images/maximize.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-background-position: center center;
+}
+
+.maximize-button:hover{
+
+    -fx-background-image: url("../images/maximize-hover.png");
+}
